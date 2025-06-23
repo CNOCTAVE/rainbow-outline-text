@@ -1,0 +1,98 @@
+/* rainbow-outline-text - rainbow outline text.
+Copyright (C) 2024-2025  Yu Hongbo, CNOCTAVE
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+.rainbow-outline-text-jet {
+    text-shadow: 0 -2px 2px #0000ff, 2px -2px 2px #0080ff, 2px 0 2px #00ffff, 2px 2px 2px #80ff80, 0 2px 2px #ffff00, -2px 2px 2px #ff8000, -2px 0 2px #ff0000, -2px -2px 2px #800000;
+}
+
+.rainbow-outline-text-viridis {
+    text-shadow: 0 -2px 2px #440154, 2px -2px 2px #46327e, 2px 0 2px #365b8c, 2px 2px 2px #27938e, 0 2px 2px #1fa187, -2px 2px 2px #49c16d, -2px 0 2px #9ed939, -2px -2px 2px #fde724;
+}
+
+.rainbow-outline-text-turbo {
+    text-shadow: 0 -2px 2px #30123b, 2px -2px 2px #4676ee, 2px 0 2px #1bcfd5, 2px 2px 2px #62fc6b, 0 2px 2px #d1e934, -2px 2px 2px #fe9b2d, -2px 0 2px #da3907, -2px -2px 2px #7a0402;
+}
+
+.rainbow-outline-text-cubehelix {
+    text-shadow: 0 -2px 2px #000000, 2px -2px 2px #1a2441, 2px 0 2px #1a6045, 2px 2px 2px #697a30, 0 2px 2px #c77a7b, -2px 2px 2px #cda2e0, -2px 0 2px #c5e0f1, -2px -2px 2px #ffffff;
+}
+
+.rainbow-outline-text-hsv {
+    text-shadow: 0 -2px 2px #ff0000, 2px -2px 2px #ffbf00, 2px 0 2px #80ff00, 2px 2px 2px #00ff40, 0 2px 2px #00ffff, -2px 2px 2px #0040ff, -2px 0 2px #8000ff, -2px -2px 2px #ff00bf;
+}
+
+.rainbow-outline-text-rainbow {
+    text-shadow: 0 -2px 2px #ff0000, 2px -2px 2px #ff5b00, 2px 0 2px #ffb600, 2px 2px 2px #daff00, 0 2px 2px #24ff00, -2px 2px 2px #006d91, -2px 0 2px #3000ff, -2px -2px 2px #aa00ff;
+}
+
+.rainbow-outline-text-hot {
+    text-shadow: 0 -2px 2px #550000, 2px -2px 2px #aa0000, 2px 0 2px #ff0000, 2px 2px 2px #ff5500, 0 2px 2px #ffaa00, -2px 2px 2px #ffff00, -2px 0 2px #ffff80, -2px -2px 2px #ffffff;
+}
+
+.rainbow-outline-text-cool {
+    text-shadow: 0 -2px 2px #00ffff, 2px -2px 2px #24daff, 2px 0 2px #48b6ff, 2px 2px 2px #6d91ff, 0 2px 2px #916dff, -2px 2px 2px #b648ff, -2px 0 2px #da24ff, -2px -2px 2px #ff00ff;
+}
+
+.rainbow-outline-text-spring {
+    text-shadow: 0 -2px 2px #ff00ff, 2px -2px 2px #ff24da, 2px 0 2px #ff48b6, 2px 2px 2px #ff6d91, 0 2px 2px #ff916d, -2px 2px 2px #ffb648, -2px 0 2px #ffda24, -2px -2px 2px #ffff00;
+}
+
+.rainbow-outline-text-summer {
+    text-shadow: 0 -2px 2px #007f66, 2px -2px 2px #249166, 2px 0 2px #48a366, 2px 2px 2px #6db666, 0 2px 2px #91c866, -2px 2px 2px #b6da66, -2px 0 2px #daec66, -2px -2px 2px #ffff66;
+}
+
+.rainbow-outline-text-autumn {
+    text-shadow: 0 -2px 2px #ff0000, 2px -2px 2px #ff2400, 2px 0 2px #ff4800, 2px 2px 2px #ff6d00, 0 2px 2px #ff9100, -2px 2px 2px #ffb600, -2px 0 2px #ffda00, -2px -2px 2px #ffff00;
+}
+
+.rainbow-outline-text-winter {
+    text-shadow: 0 -2px 2px #0000ff, 2px -2px 2px #0024ec, 2px 0 2px #0048da, 2px 2px 2px #006dc8, 0 2px 2px #0091b6, -2px 2px 2px #00b6a3, -2px 0 2px #00da91, -2px -2px 2px #00ff7f;
+}
+
+.rainbow-outline-text-gray {
+    text-shadow: 0 -2px 2px #000000, 2px -2px 2px #242424, 2px 0 2px #484848, 2px 2px 2px #6d6d6d, 0 2px 2px #919191, -2px 2px 2px #b6b6b6, -2px 0 2px #dadada, -2px -2px 2px #ffffff;
+}
+
+.rainbow-outline-text-bone {
+    text-shadow: 0 -2px 2px #00000a, 2px -2px 2px #1f1f35, 2px 0 2px #3f3f5f, 2px 2px 2px #5f6a7f, 0 2px 2px #7f949f, -2px 2px 2px #9fbfbf, -2px 0 2px #cfdfdf, -2px -2px 2px #ffffff;
+}
+
+.rainbow-outline-text-copper {
+    text-shadow: 0 -2px 2px #000000, 2px -2px 2px #2d1c12, 2px 0 2px #5b3824, 2px 2px 2px #885536, 0 2px 2px #b67148, -2px 2px 2px #e38e5a, -2px 0 2px #ffaa6c, -2px -2px 2px #ffc77e;
+}
+
+.rainbow-outline-text-pink {
+    text-shadow: 0 -2px 2px #550000, 2px -2px 2px #8f4e4e, 2px 0 2px #b86f6f, 2px 2px 2px #c8a088, 0 2px 2px #d7c69d, -2px 2px 2px #e5e5af, -2px 0 2px #f2f2db, -2px -2px 2px #ffffff;
+}
+
+.rainbow-outline-text-ocean {
+    text-shadow: 0 -2px 2px #000000, 2px -2px 2px #000024, 2px 0 2px #000048, 2px 2px 2px #00006d, 0 2px 2px #003f91, -2px 2px 2px #007fb6, -2px 0 2px #7fbfda, -2px -2px 2px #ffffff;
+}
+
+.rainbow-outline-text-colorcube {
+    text-shadow: 0 -2px 2px #000000, 2px -2px 2px #242424, 2px 0 2px #484848, 2px 2px 2px #6d6d6d, 0 2px 2px #919191, -2px 2px 2px #b6b6b6, -2px 0 2px #dadada, -2px -2px 2px #ffffff;
+}
+
+.rainbow-outline-text-flag {
+    text-shadow: 0 -2px 2px #ff0000, 2px -2px 2px #ffffff, 2px 0 2px #0000ff, 2px 2px 2px #000000, 0 2px 2px #ff0000, -2px 2px 2px #ffffff, -2px 0 2px #0000ff, -2px -2px 2px #000000;
+}
+
+.rainbow-outline-text-lines {
+    text-shadow: 0 -2px 2px #0071bc, 2px -2px 2px #d85218, 2px 0 2px #ecb01f, 2px 2px 2px #7d2e8d, 0 2px 2px #76ab2f, -2px 2px 2px #4cbded, -2px 0 2px #a1132e, -2px -2px 2px #0071bc;
+}
+
+.rainbow-outline-text-prism {
+    text-shadow: 0 -2px 2px #ff0000, 2px -2px 2px #ff8000, 2px 0 2px #ff0000, 2px 2px 2px #00ff00, 0 2px 2px #0000ff, -2px 2px 2px #aa00ff, -2px 0 2px #ff0000, -2px -2px 2px #ff8000;
+}
